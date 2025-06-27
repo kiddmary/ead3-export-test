@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/YaleArchivesSpace/EAD3-to-PDF-UA/master/ead3-yale.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/EAD3/master/ead3.rng"
+      type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<ead xmlns="http://ead3.archivists.org/schema/">
+   <control countryencoding="iso3166-1"
+            dateencoding="iso8601"
+            langencoding="iso639-2b"
+            relatedencoding="marc"
+            repositoryencoding="iso15511"
+            scriptencoding="iso15924">
+      <recordid instanceurl="https://hdl.handle.net/10079/fa/oham.100@100">oham.100@100</recordid>
+      <otherrecordid localtype="BIB">16400354</otherrecordid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to 100@100: Women composers interviewed by Mt. Holyoke College students </titleproper>
+            <titleproper localtype="filing">100@100: Women composers interviewed by Mt. Holyoke College students</titleproper>
+            <author>Compiled by Anne Rhodes</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>Oral History of American Music</publisher>
+            <address>
+               <addressline>P.O. Box 208240</addressline>
+               <addressline>New Haven, CT 06520-8307</addressline>
+               <addressline localtype="email">musicspecialcollections@yale.edu</addressline>
+               <addressline>
+                  <ref href="http://guides.library.yale.edu/oham/collectionsguide"
+                       linktitle="http://guides.library.yale.edu/oham/collectionsguide"
+                       show="new">http://guides.library.yale.edu/oham/collectionsguide</ref>
+               </addressline>
+            </address>
+            <date>2022-10-25</date>
+            <num>100@100</num>
+         </publicationstmt>
+         <notestmt>
+            <controlnote localtype="digital">
+               <p>This collection contains <num localtype="objects" altrender="20">20</num> published digital objects.</p>
+            </controlnote>
+         </notestmt>
+      </filedesc>
+      <maintenancestatus value="derived"/>
+      <maintenanceagency countrycode="US">
+         <agencycode>US-CtY-Mus</agencycode>
+         <agencyname>Oral History of American Music</agencyname>
+      </maintenanceagency>
+      <languagedeclaration>
+         <language langcode="eng">English</language>
+         <script scriptcode="Latn">Latin</script>
+      </languagedeclaration>
+      <conventiondeclaration>
+         <abbr>Describing Archives: A Content Standard</abbr>
+         <citation>translation missing: en.enumerations.resource_finding_aid_description_rules.Describing Archives: A Content Standard</citation>
+      </conventiondeclaration>
+      <rightsdeclaration>
+         <abbr>CC0</abbr>
+         <citation href="https://creativecommons.org/publicdomain/zero/1.0/"/>
+         <descriptivenote>
+            <p>Finding aid description and metadata in Archives at Yale are licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. This means that anyone may copy, modify, and distribute this descriptive metadata without restriction or permission. The CC0 license is explained in full on the Creative Commons website: <ref href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</ref>. More information is available on our <ref href="https://archives.yale.edu/help">Help page</ref>.</p>
+         </descriptivenote>
+      </rightsdeclaration>
+      <localcontrol localtype="findaidstatus">
+         <term>in_progress</term>
+      </localcontrol>
+      <maintenancehistory>
+         <maintenanceevent>
+            <eventtype value="derived"/>
+            <eventdatetime>2025-06-27T10:19:22-04:00</eventdatetime>
+            <agenttype value="machine"/>
+            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June 27, 2025 at 10:19</eventdescription>
+         </maintenanceevent>
+      </maintenancehistory>
+   </control>
+   <archdesc altrender="/repositories/7/resources/12939" level="collection">
+      <did>
+         <unittitle>100@100: Women Composers Interviewed by Mt. Holyoke College Students - TEST12</unittitle>
+         <unitid>100@100</unitid>
+         <repository>
+            <corpname>
+               <part>Oral History of American Music</part>
+            </corpname>
+         </repository>
+         <langmaterial>
+            <languageset>
+               <language langcode="eng">English</language>
+               <script scriptcode="Latn">Latin</script>
+            </languageset>
+         </langmaterial>
+         <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+            <quantity>20</quantity>
+            <unittype>Computer Files</unittype>
+         </physdescstructured>
+         <physdesc localtype="container_summary">6.6 gigabytes</physdesc>
+         <unitdatestructured altrender="2020-2021" label="creation" unitdatetype="inclusive">
+            <daterange>
+               <fromdate standarddate="2020">2020</fromdate>
+               <todate standarddate="2021">2021</todate>
+            </daterange>
+         </unitdatestructured>
+         <origination label="Source">
+            <persname rules="dacs" source="local_music">
+               <part localtype="agent_person">Ng, Tianhui</part>
+            </persname>
+         </origination>
+      </did>
+      <accessrestrict id="aspace_762a43f342a3fc9bd39bf954bc4f4169">
+         <head>Conditions Governing Access</head>
+         <p>This collection is open for research. The finding aid includes links to stream most interviews online via Oral History of American Music's (OHAM) AV access system, Aviary. Yale users can login to Aviary using their Yale University ID, to stream these interviews without restriction. Other users are able to request access to interviews directly through Aviary. For access instructions, and to request transcripts of an interview, see <ref href="https://guides.library.yale.edu/oham/collectionsguide/access">OHAM's website.</ref>
+         </p>
+      </accessrestrict>
+      <userestrict id="aspace_92284dde51e169600769e1e16fa99d3b">
+         <head>Conditions Governing Use</head>
+         <p>Rights and permissions for Oral History of American Music materials vary between individual interviews. Researchers wishing to publish or broadcast Oral History of American Music materials are responsible for obtaining direct authorization from copyright holders: generally, the interviewees or their estates.</p>
+      </userestrict>
+      <arrangement id="aspace_25fc7cb882112dad8a43a3364dbce658">
+         <head>Arrangement</head>
+         <p>The collection is arranged alphabetically by surname.</p>
+      </arrangement>
+      <phystech id="aspace_4b634ddee72f8dfa4f9d5e45c5eca842">
+         <head>Physical Characteristics and Technical Requirements</head>
+         <p>.mp4 files</p>
+      </phystech>
+      <prefercite id="aspace_f8eb8561a5bd6e1b88e00e205d7bf5f7">
+         <head>Preferred Citation</head>
+         <p>100@100: Women composers interviewed by Mt. Holyoke College students, Oral History of American Music, in the Music Library of Yale University.</p>
+      </prefercite>
+      <controlaccess>
+         <subject identifier="http://id.loc.gov/authorities/subjects/sh85147508"
+                  source="lcsh">
+            <part localtype="topical">Women composers</part>
+         </subject>
+         <subject source="lcsh">
+            <part localtype="topical">Composers</part>
+            <part localtype="geographic">United States</part>
+            <part localtype="temporal">21st century</part>
+         </subject>
+      </controlaccess>
+      <dsc>
+         <c altrender="/repositories/7/archival_objects/3523235"
+            id="aspace_a687499be72f1bef8db677e408d93f8f"
+            level="series">
+            <did>
+               <unittitle>Anderson, Beth</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3526569"
+               id="aspace_abd3b3d40244f506463661aba9f936b8"
+               level="item">
+               <did>
+                  <unittitle>Anderson, Beth</unittitle>
+                  <unitid>100@100 1 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Malnick, Lucinda</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">206 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 December 5"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-12-05">2020 December 5</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_992a4bce2ae1a106f67b808d489665c8">Approximate running time: 62 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213049">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/3f4kk95c0s"
+                          identifier="aviary_83777"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83777"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Anderson, Beth, 2020 December 5</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_73ee9b51f128d7593d9e3466696499c6">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_f8f74aa404f47628c6f583a7ca813830">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 files</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="dacs" source="naf">
+                     <part localtype="agent_person">Anderson, Beth, 1950-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575095"
+            id="aspace_a017e9f2406617704ebed87fd929ddc0"
+            level="series">
+            <did>
+               <unittitle>Beglarian, Eve</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575102"
+               id="aspace_2bc98c5b5f777eabb8ccb94760f1d9f2"
+               level="item">
+               <did>
+                  <unittitle>Beglarian, Eve</unittitle>
+                  <unitid>100@100 8 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Perlman, Eliana</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">487 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 November 6"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-11-06">2020 November 6</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_739ba76d3c7987ba3519f4831a159cab">Approximate running time: 65 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/218380">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/vh5cc0w58z"
+                          identifier="aviary_88913"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_88913"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Beglarian, Eve, 2020 November 6</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_fba2b3fc9d6d7ae894f3b134fc9bb90e">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Brandon, VT and interviewer in Melbourne, FL</p>
+               </scopecontent>
+               <phystech id="aspace_94c6fb620dd404a083f708b3a2744282">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Beglarian, Eve (19580722)</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575096"
+            id="aspace_c906e8b79fc845f41b13025e31060d01"
+            level="series">
+            <did>
+               <unittitle>Brazelton, Kitty</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575103"
+               id="aspace_a7827ff6ae94d425c3da1fbf711a5563"
+               level="item">
+               <did>
+                  <unittitle>Brazelton, Kitty</unittitle>
+                  <unitid>100@100 9 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">McGrath, Anna</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">146 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 November 30"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="20020-11-30">2020 November 30</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_bdde8af240d2eb9311f6d31d8363e89d">Approximate running time: 63 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/218381">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/qv3bz62j6z"
+                          identifier="aviary_88914"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_88914"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Brazelton, Kitty, 2020 November 30</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_0a334d00117868f6f977f74468befbfe">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Barnstable, MA and interviewer in North Andover, MA.</p>
+               </scopecontent>
+               <phystech id="aspace_6fdb898d3275e2a7c0c7681cc98b93c6">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="aacr">
+                     <part localtype="agent_person">Brazelton, Kitty, 1951-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862954"
+            id="aspace_6914aceeef80c2505151f2f6d3dd412f"
+            level="series">
+            <did>
+               <unittitle>Brouwer, Margaret</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3862960"
+               id="aspace_e9a73b0dd87904c8e0aeffb76cca7a85"
+               level="item">
+               <did>
+                  <unittitle>Brouwer, Margaret</unittitle>
+                  <unitid>100@100 11 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="rda" source="local_music">
+                        <part localtype="agent_person">Levy, Dani</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">126 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 October 28"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-10-28">2020 October 28</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_e33afeb15c55c8c179d46ce9d271d75d">Approximate running time: 29 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282287">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/h12v40mm7d"
+                          identifier="aviary_131085"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/339/original/open-uri20240711-2080804-gy1yal_1720730107.jpg?1720730109"
+                          identifier="aviary_131085"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 11 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_9a07d7429bfb97eee62ae2ed52d274f8">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat with interviewee in Cleveland, OH and intervierer in Frisco, TX.</p>
+               </scopecontent>
+               <phystech id="aspace_ebe2914764d5f0a95fce0a3a0a491f8f">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" source="naf">
+                     <part localtype="agent_person">Brouwer, Margaret, 1940-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523236"
+            id="aspace_be9ca2bcce9f28b9329df01aac540475"
+            level="series">
+            <did>
+               <unittitle>Chen Yi</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3526570"
+               id="aspace_6b83091f6ce69d83eb3cfadcf1862b7b"
+               level="item">
+               <did>
+                  <unittitle>Chen Yi</unittitle>
+                  <unitid>100@100 2 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Sun, Jingyi</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">363 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 May 25" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-05-25">2021 May 25</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_a58ec588cee4b4a7b0ac66f809cbd8df">Approximate running time: 64 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213050">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/j38kd1rr82"
+                          identifier="aviary_83778"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83778"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Chen Yi, 2021 May 25</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_2f3de0a2fa5841a6b3e76a193d62087a">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Kansas City, MO</p>
+               </scopecontent>
+               <phystech id="aspace_5d4a1f3e57fe36572bf033233f6f90cb">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="dacs" source="naf">
+                     <part localtype="agent_person">Chen, Yi, 1953-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575097"
+            id="aspace_d95c362b8ffb34671a498942c3563e4f"
+            level="series">
+            <did>
+               <unittitle>Farrin, Suzanne</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575104"
+               id="aspace_0fadebd0993da34e30b4ab41444f8f5a"
+               level="item">
+               <did>
+                  <unittitle>Farrin, Suzanne</unittitle>
+                  <unitid>100@100 10 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Shime, Amiko</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">418 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 November 16"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-11-16">2020 November 16</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_ea53b00490ab85882c11a4a83d1ca015">Approximate running time: 63 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/218382">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/zg6g15vn2k"
+                          identifier="aviary_88915"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_88915"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Farrin, Suzanne, 2020 November 16</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_04566d1aea071256a076940e9f3b11a0">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in New York, NY and interviewer in Scarsdale, NY</p>
+               </scopecontent>
+               <phystech id="aspace_5c9d0b561a91d69c550fad1509efed8b">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="dacs" source="naf">
+                     <part localtype="agent_person">Farrin, Suzanne</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523237"
+            id="aspace_18f6c86d30d985a825b3fe27669102d2"
+            level="series">
+            <did>
+               <unittitle>Hennies, Sarah</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3526571"
+               id="aspace_759e661158b8a24330ef876c2c6362d6"
+               level="item">
+               <did>
+                  <unittitle>Hennies, Sarah</unittitle>
+                  <unitid>100@100 3 a</unitid>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">526 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 May 3" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-05-03">2021 May 3</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_405c961dfc1d9943d7e9f47493b8ec98">Approximate running time: 57 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213051">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/6688g8gj1q"
+                          identifier="aviary_83779"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83779"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Hennies, Sarah, 2021 May 3</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_49af8a39676f1d7ddd3471806e02d580">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_f6dc664529aefb0a2c7cdce0c0ac22f3">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 files</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Hennies, Sarah, 1979-</part>
+                  </persname>
+                  <persname relator="ivr" rules="dacs" source="local_music">
+                     <part localtype="agent_person">Insalaco, Milena</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523238"
+            id="aspace_32f0b0ebae729a751d8d10f73594c497"
+            level="series">
+            <did>
+               <unittitle>Lamb, Alexis</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3527916"
+               id="aspace_4a10c250ead4ee00abe26bba1166359a"
+               level="item">
+               <did>
+                  <unittitle>Lamb, Alexis</unittitle>
+                  <unitid>100@100 4 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Goldin, Emma</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">562 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 April 29" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-04-29">2021 April 29</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_7be28bce81597b5ceaf7e27641222fc7">Approximate running time: 57 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213052">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/j96057f007"
+                          identifier="aviary_83780"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83780"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Lamb, Alexis, 2021 April 29</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_5017ffbb7a1a6578a145f6e33b1b8fd2">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_4869acce94a2afb621308943b9e155eb">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="dacs" source="naf">
+                     <part localtype="agent_person">Lamb, Alexis C.</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575099"
+            id="aspace_d12d7ce6d1b87608c5a4ea8c09b22590"
+            level="series">
+            <did>
+               <unittitle>Lash, Han</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575106"
+               id="aspace_0535ff1a6b45ff7dd41c6f2ef81a21ae"
+               level="item">
+               <did>
+                  <unittitle>Lash, Han</unittitle>
+                  <unitid>100@100 12 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Wang, Amanda</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">212 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 December 12"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-12-12">2020 December 12</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_32413d83597ff556989bc294c7712177">Approximate running time: 48 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/281777">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/125q81682f"
+                          identifier="aviary_129382"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_129382"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Lash Han 2020 December 12</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_c74fff2f91094730e493530cfaa392b2">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in New Haven, CT and interviewer in Beijing, China</p>
+               </scopecontent>
+               <phystech id="aspace_60f18bbc6b3efe6d7d77d3e79530b498">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" source="local">
+                     <part localtype="agent_person">Lash, Hannah, 1981-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523239"
+            id="aspace_8f7e93e70b4384d9474d22d9f67920ed"
+            level="series">
+            <did>
+               <unittitle>Laster, Gwen</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3527944"
+               id="aspace_07bdfb563aa95e2680db045530e63eda"
+               level="item">
+               <did>
+                  <unittitle>Laster, Gwen</unittitle>
+                  <unitid>100@100 5 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Sapini, Briana</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">554 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 April 19" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-04-19">2021 April 19</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_70cfc1ca4eaad07fb24236babb958b47">Approximate running time: 77 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213053">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/jq0sq8rj05"
+                          identifier="aviary_83781"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83781"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Laster, Gwen, 2021 April 19</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_0850cf39dbef809ac99e9c710a0d9930">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Brooklyn, NY.</p>
+               </scopecontent>
+               <phystech id="aspace_59fe45239a0afc982364953be39b532f">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 files</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="aacr">
+                     <part localtype="agent_person">Laster, Gwen</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862955"
+            id="aspace_78b34388411ea5448396262a1332c9e8"
+            level="series">
+            <did>
+               <unittitle>Mallonee, Caroline</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3862973"
+               id="aspace_6c867f1ed7c5aa2150ebecbef7e951d8"
+               level="item">
+               <did>
+                  <unittitle>Mallonee, Caroline</unittitle>
+                  <unitid>100@100 16 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Johnson, Kristen</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">235 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 October 16"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-10-16">2020 October 16</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_a6bc3219add996d312a55b71b72f9106">Approximate running time: 57 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282291">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/js9h41m50r"
+                          identifier="aviary_131088"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/342/original/open-uri20240712-2080804-cqssax_1720792425.jpg?1720792427"
+                          identifier="aviary_131088"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 16 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_08609a706251533e83c70f37dac7ea33">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Buffalo, NY and interviewer in Haverford, PA</p>
+               </scopecontent>
+               <phystech id="aspace_2538b196bcc4791e6be40d48f80d414a">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Mallonée, Caroline (Caroline Joanna), 1975-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862956"
+            id="aspace_f06aff8cb98f5a14500df5bb665a7b4a"
+            level="series">
+            <did>
+               <unittitle>Porter, Tanner</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3863004"
+               id="aspace_ce0a55333411633361487e3037ad886a"
+               level="item">
+               <did>
+                  <unittitle>Porter, Tanner</unittitle>
+                  <unitid>100@100 17  a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ive" source="local_music">
+                        <part localtype="agent_person">Porter, Tanner</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">441 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 October 31"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-10-31">2020 October 31</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_85139610acc5bb13685db99d40217752">Approximate running time: 53 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282292">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/xs5j962427"
+                          identifier="aviary_131090"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/344/original/open-uri20240712-2080804-o3ygo1_1720792938.jpg?1720792940"
+                          identifier="aviary_131090"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 17 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_b98e7ad6a95edd770ba91a1ed67878e8">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat with interviewee in California and interviewer in Seattle, WA.</p>
+               </scopecontent>
+               <phystech id="aspace_00fe991f040f2c089dfb35f660be0348">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ivr" rules="rda" source="local_music">
+                     <part localtype="agent_person">Day, Sarah</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862957"
+            id="aspace_99a1622bf26a1109d72057225d932f90"
+            level="series">
+            <did>
+               <unittitle>Shyu, Jen</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3863018"
+               id="aspace_9527f6b8a06bab3460a74590997b38d5"
+               level="item">
+               <did>
+                  <unittitle>Shyu, Jen</unittitle>
+                  <unitid>100@100 18 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ive" rules="rda" source="local_music">
+                        <part localtype="agent_person">Kim, Sienna</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">699 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 March 1" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-03-01">2021 March 1</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_60d078d8572ccd25f47fae223fefd7e1">Approximate running time: 67 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282296">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/np1wd3rs49"
+                          identifier="aviary_131117"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/391/original/open-uri20240712-2080804-gpckjc_1720803039.jpg?1720803041"
+                          identifier="aviary_131117"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 18 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_0d2603aa0bf38b48fb81267a6f841d37">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_e65a54bba61108de391efe04fa834bf9">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" source="naf">
+                     <part localtype="agent_person">Shyu, Jen</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575100"
+            id="aspace_8f222a63f476eb4d78318492075c5a38"
+            level="series">
+            <did>
+               <unittitle>Snider, Sarah Kirkland</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575107"
+               id="aspace_1a17a2cc1af7da389d80dd68b669e8b6"
+               level="item">
+               <did>
+                  <unittitle>Snider, Sarah Kirkland</unittitle>
+                  <unitid>100@100 13 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Fitzgerald, Catelyn</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">322 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 November 20"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-11-20">2020 November 20</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_1ee68ea08e910499ecc37c9795becdb4">Approximate running time: 66 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/281778">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/br8mc8sz75"
+                          identifier="aviary_129383"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_129383"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Snider Sarah Kirkland 2020 November 20</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_9a54b121e57ab0ea8ca6ad3616ea6abd">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Princeton, NJ and interviewer in Emmaus, PA</p>
+               </scopecontent>
+               <phystech id="aspace_97b7f61903066de731b558785261da37">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Snider, Sarah Kirkland (1973-)</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862958"
+            id="aspace_7844e5530b71606adaca9ec3eb559f7c"
+            level="series">
+            <did>
+               <unittitle>Socolofsky, Annika</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3863038"
+               id="aspace_855567f910efd5949f164f5f2c0e8b94"
+               level="item">
+               <did>
+                  <unittitle>Socolofsky, Annika</unittitle>
+                  <unitid>100@100 19 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="rda" source="local_music">
+                        <part localtype="agent_person">Healy, Bryn</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">400 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 May 17" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-05-17">2021 May 17</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_a814ff14e5f87d0e92f1f9b8daaaa815">Approximate running time: 55 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282297">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/959c53gn8p"
+                          identifier="aviary_131118"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/392/original/open-uri20240712-2080804-eztt37_1720803157.jpg?1720803159"
+                          identifier="aviary_131118"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 19 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_ac656f0b2d1b4f1043da49ae43f124bb">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_7a6532752a82442a8273f4163b035ee4">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Socolofsky, Annika K., 1990-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3862959"
+            id="aspace_cd8c78d632a745f18fd7dfe450e76aba"
+            level="series">
+            <did>
+               <unittitle>Stepanek, Julie</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3863040"
+               id="aspace_06028ad16b082acd98f1f0570c6b3e88"
+               level="item">
+               <did>
+                  <unittitle>Stepanek, Julie</unittitle>
+                  <unitid>100@100 20 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="rda" source="local_music">
+                        <part localtype="agent_person">Loomis, Richard</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">118 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 October 13"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-10-13">2020 October 13</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_d229fa5e0d089d67b7331f11f60fb075">Approximate running time: 25 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/282298">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/9w08w39r53"
+                          identifier="aviary_131119"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/245/393/original/open-uri20240712-2080804-1g01dk_1720803203.jpg?1720803203"
+                          identifier="aviary_131119"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] 100100 20 a.u.mp4</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_a254b0a77767eb1cdb6f120ddbc629df">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Shutesbury, MA and interviewer in Belchertown, MA.</p>
+               </scopecontent>
+               <phystech id="aspace_53e4777ec2a400a01a32cd6a9e48436f">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" source="local_music">
+                     <part localtype="agent_person">Stepanek, Julie</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575101"
+            id="aspace_bf6ef7b516ef7d49a061b6836c1aaef3"
+            level="series">
+            <did>
+               <unittitle>Tesori, Jeanine</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575109"
+               id="aspace_f01794f141abb1c682ba27d8be10f50b"
+               level="item">
+               <did>
+                  <unittitle>Tesori, Jeanine</unittitle>
+                  <unitid>100@100 14 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="rda" source="local_music">
+                        <part localtype="agent_person">Rogers, Hope (Flutist)</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">43.9 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 January 14"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2021-01-14">2021 January 14</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_9e10ab5b598ef62c50d789efbcdb3c1d">Approximate running time: 48 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/225105">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/qn5z60db31"
+                          identifier="aviary_98215"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_98215"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Tesori, Jeanine, 2021 January 14</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <accessrestrict id="aspace_c412101dd6e0aff33dc23dd0a988ff27">
+                  <head>Conditions Governing Access</head>
+                  <p>This material is restricted. Access may be granted to a patron who has obtained direct permission from the interviewee or their estate.</p>
+               </accessrestrict>
+               <scopecontent id="aspace_0e95ea25d9f872492dd5adc8249d6d18">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in Southold, NY and interviewer in Chicago, IL</p>
+               </scopecontent>
+               <phystech id="aspace_fe3079ac51cbae65dc7b4ed9c97efc18">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.m4a file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive" rules="dacs" source="naf">
+                     <part localtype="agent_person">Tesori, Jeanine</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523240"
+            id="aspace_889703c2be8da806c8d8e1fa899e4a5f"
+            level="series">
+            <did>
+               <unittitle>Tower, Joan</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3527948"
+               id="aspace_ed0505bd46dc4391dd06ee6712c9de92"
+               level="item">
+               <did>
+                  <unittitle>Tower, Joan</unittitle>
+                  <unitid>100@100 6 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Estrada, Samantha</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">615 megabytes</physdesc>
+                  <unitdatestructured altrender="2021 April 24" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-04-24">2021 April 24</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_abc1a4cd23d668033b4f5e158dce15fd">Approximate running time: 54 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213054">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/j678s4kx2r"
+                          identifier="aviary_83782"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83782"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Tower, Joan, 2021 April 24</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_445a63204564a4e2d0b4b1acc87cc675">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat.</p>
+               </scopecontent>
+               <phystech id="aspace_613f941a5273dc83f5f1790f18cf8e7e">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 files</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Tower, Joan, 1938-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3575108"
+            id="aspace_f3a649d1f6af924b37547e35850bf671"
+            level="series">
+            <did>
+               <unittitle>Walker, Gwyneth</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3575110"
+               id="aspace_fbdaa7bb2126af08c7b1ee2fa3464f1c"
+               level="item">
+               <did>
+                  <unittitle>Walker, Gwyneth</unittitle>
+                  <unitid>100@100 15 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Myren, Isabel</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">321 megabytes</physdesc>
+                  <unitdatestructured altrender="2020 October 30"
+                                      label="creation"
+                                      unitdatetype="inclusive">
+                     <datesingle standarddate="2020-10-30">2020 October 30</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_76f26e84b5c4e123ea6bcaaf9f24aa7b">Approximate running time: 53 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/218386">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/wp9t14w238"
+                          identifier="aviary_88920"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_88920"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Walker, Gwyneth, 2020 October 30</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_567443f5161d32e33866cbdc4d4a7877">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat, with interviewee in New Canaan, CT and interviewer in Pierre, SD</p>
+               </scopecontent>
+               <phystech id="aspace_b1809ba7fceb5f46b176d45cfa330005">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Walker, Gwyneth, 1947-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+         <c altrender="/repositories/7/archival_objects/3523241"
+            id="aspace_381fb92098da6b51966c3330834bf5a5"
+            level="series">
+            <did>
+               <unittitle>Zaimont, Judith Lang</unittitle>
+            </did>
+            <c altrender="/repositories/7/archival_objects/3527952"
+               id="aspace_038390bb1d50cd74cc847376bfdf7b4a"
+               level="item">
+               <did>
+                  <unittitle>Zaimont, Judith Lang</unittitle>
+                  <unitid>100@100 7 a</unitid>
+                  <origination label="Creator">
+                     <persname relator="ivr" rules="dacs" source="local_music">
+                        <part localtype="agent_person">Johnson, Kristen</part>
+                     </persname>
+                  </origination>
+                  <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                     <quantity>1</quantity>
+                     <unittype>Computer File</unittype>
+                  </physdescstructured>
+                  <physdesc localtype="container_summary">2.3 gigabytes</physdesc>
+                  <unitdatestructured altrender="2021 April 16" label="creation" unitdatetype="inclusive">
+                     <datesingle standarddate="2021-04-16">2021 April 16</datesingle>
+                  </unitdatestructured>
+                  <physdesc id="aspace_1df37d2f14067b0db3c61fbb201de1ce">Approximate running time: 92 mins</physdesc>
+                  <daoset altrender="/repositories/7/digital_objects/213055">
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://yalemusiclib.aviaryplatform.com/r/x34mk66g0h"
+                          identifier="aviary_83783"
+                          linkrole="video-streaming"
+                          show="new"/>
+                     <dao actuate="onrequest"
+                          audience="external"
+                          daotype="unknown"
+                          href="https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png"
+                          identifier="aviary_83783"
+                          linkrole="image-thumbnail"
+                          show="embed"/>
+                     <descriptivenote>
+                        <p>[Aviary] Zaimont, Judith Lang, 2021 April 16</p>
+                     </descriptivenote>
+                  </daoset>
+               </did>
+               <scopecontent id="aspace_46db672ce5bfa35748699be4fd2f2d5c">
+                  <head>Interview location</head>
+                  <p>Interview conducted via videochat</p>
+               </scopecontent>
+               <phystech id="aspace_43121098ca64c55b45aa2eb211ef129f">
+                  <head>Physical Characteristics and Technical Requirements</head>
+                  <p>.mp4 file</p>
+               </phystech>
+               <controlaccess>
+                  <persname relator="ive">
+                     <part localtype="agent_person">Zaimont, Judith Lang, 1945-</part>
+                  </persname>
+               </controlaccess>
+            </c>
+         </c>
+      </dsc>
+   </archdesc>
+</ead>
