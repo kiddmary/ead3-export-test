@@ -67,16 +67,16 @@
       <maintenancehistory>
          <maintenanceevent>
             <eventtype value="derived"/>
-            <eventdatetime>2025-06-27T10:20:44-04:00</eventdatetime>
+            <eventdatetime>2025-08-06T09:27:25-04:00</eventdatetime>
             <agenttype value="machine"/>
-            <agent>ArchivesSpace yale-rebased-v3.3.1</agent>
-            <eventdescription>This finding aid was produced using ArchivesSpace on Friday June 27, 2025 at 10:20</eventdescription>
+            <agent>ArchivesSpace v3.3.1-yale-a094eff-hosting-p1</agent>
+            <eventdescription>This finding aid was produced using ArchivesSpace on Wednesday August  6, 2025 at 09:27</eventdescription>
          </maintenanceevent>
       </maintenancehistory>
    </control>
    <archdesc altrender="/repositories/7/resources/5483" level="collection">
       <did>
-         <unittitle>Aaron Copland Oral History</unittitle>
+         <unittitle>Aaron Copland Oral History - TEST</unittitle>
          <unitid>OHVI</unitid>
          <repository>
             <corpname>
